@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,0">
+    <title>Win Loose Banana</title>
+  </head>
+  <body>
+    <h1><span class="green">Win</span> <span class="red">Loose</span> <span class="yellow">Banana</span></h1>
+    <p id="game" style="display: none"></p>
+    <p id="name" style="display: none"></p>
+    <div id="players"></div>
+    <div id="content"></div>
+    <div>
+      <span id="status"></span>
+      <input type="text" id="input" disabled="disabled" />
+      <input type="button" id="playButton" value="Play" style="display: none" />
+    </div>
+
+    <script src="./jquery-2.0.2.min.js"></script>
+    <script src="./wlb-client.js"></script>
+  </body>
+</html>
